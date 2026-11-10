@@ -1,0 +1,30 @@
+{
+  "/": {
+    "controller": "MainController",
+    "action": "main"
+  },
+  "/detalle": {
+    "controller": "TaskController",
+    "action": "detail"
+  },
+  "/tareas": {
+    "controller": "TaskController",
+    "action": "list"
+  },
+  "/crear": {
+    "controller": "TaskController",
+    "action": "new"
+  },
+  "/save": {
+    "controller": "TaskController",
+    "action": "save"
+  },
+  "/delete": {
+    "controller": "TaskController",
+    "action": "deleteMultiple"
+  },
+  "/deleteTask": {
+    "controller": "TaskController",
+    "action": "delete"
+  }
+}

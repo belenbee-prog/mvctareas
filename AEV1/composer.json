@@ -1,0 +1,16 @@
+{
+    "name": "dwes/aev1",
+    "autoload": {
+        "psr-4": {
+            "AP35\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Belén"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.7"
+    }
+}

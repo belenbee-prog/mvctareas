@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crear tarea | AEV1</title>
+  <link rel="stylesheet" href="/assets/css/estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor barra">
+      <a class="marca" href="/">AEV1 <span>· Tareas</span></a>
+      <nav aria-label="Navegación principal">
+        <a href="/">Inicio</a>
+        <a href="/tareas">Tareas</a>
+        <a href="/crear" aria-current="page">Crear tarea</a>
+      </nav>
+    </div>
+  </header>
+  <main class="contenedor contenido">
+    <p class="etiqueta">Gestión de tareas</p>
+    <h1>Añadir una nueva tarea</h1>
+    <form action="/save" method="POST" class="tarjeta formulario">
+      <div class="campo">
+        <label for="title">Título</label>
+        <input id="title" type="text" name="title" placeholder="Ej. Entregar la actividad">
+      </div>
+      <div class="campo">
+        <label for="description">Descripción</label>
+        <textarea id="description" name="description" rows="5" placeholder="Añade los detalles de la tarea"></textarea>
+      </div>
+      <div class="acciones">
+        <button class="boton" type="submit">Añadir tarea</button>
+        <a class="boton boton-secundario" href="/tareas">Cancelar</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
